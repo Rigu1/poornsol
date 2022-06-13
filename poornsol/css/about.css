@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f4f0;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+header {
+  padding: 0.725rem;
+  background-color: #b1b1b6;
+  color: #222;
+  position: sticky;
+  top: 0;
+}
+
+.header__contant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h2 {
+  font-size: 1.35rem;
+}
+
+.search {
+  padding-right: 0.5rem;
+}
+
+.search_after {
+  position: absolute;
+  opacity: 0;
+}
+
+.search_after:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container_bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  width: 100%;
+  height: 3.3rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__meun ul {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+}
+
+.nav__about {
+  padding-right: 0;
+}
+
+nav ul li {
+  margin-right: 5rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.nav__meun-about {
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 3px #444;
+}
+
+nav ul li :hover {
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 3px #444;
+}
+
+.main {
+  display: flex;
+}
+
+section {
+  width: 90%;
+  box-shadow: 1px 0px #ddd;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.section__header {
+  padding: 3em 0 1em 3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.section__article {
+  padding: 1rem 5rem 1rem 1rem;
+}
+
+.article__title {
+  padding-left: 1rem;
+}
+
+.article__content {
+  margin-top: 2rem;
+}
+
+.content__container {
+  padding: 1rem 2rem;
+}
+
+.content__container img {
+  width: 700px;
+  padding: 1rem 0;
+}
+
+aside {
+  min-width: 6rem;
+  height: 40rem;
+  margin: 4rem 3rem;
+  color: #444;
+  position: sticky;
+  top: 4rem;
+  z-index: 2;
+  overflow: hidden;
+}
+
+aside ul {
+  list-style: none;
+}
+
+.aside__title {
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+}
+
+aside li {
+  margin-top: 1rem;
+}
+
+.aside_div {
+  width: 6em;
+  margin-top: 2.5rem;
+  padding: 0.5rem 0;
+  box-shadow: 0px 1px inset #ddd;
+}
+
+.aside__go-top {
+  padding: 4rem 0.75rem;
+}
+
+.aside__go-top_after {
+  position: absolute;
+  opacity: 0;
+}
+
+.aside__go-top_after:hover {
+  opacity: 1;
+}
+
+.container_top {
+  box-shadow: 0px 1px inset #ddd;
+}
+
+footer {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
