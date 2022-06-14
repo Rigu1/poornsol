@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>리구의 개발일지</title>
+    <link rel="stylesheet" href="./css/android-IDE.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__contant">
+          <h2>리구의 개발일지</h2>
+          <div class="search">
+            <div class="search_after">
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="#444444"
+                  viewBox="0 0 256 256"
+                >
+                  <rect width="256" height="256" fill="none"></rect>
+                  <circle cx="116" cy="116" r="84" opacity="0.2"></circle>
+                  <circle
+                    cx="116"
+                    cy="116"
+                    r="84"
+                    fill="none"
+                    stroke="#444444"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  ></circle>
+                  <line
+                    x1="175.4"
+                    y1="175.4"
+                    x2="224"
+                    y2="224"
+                    fill="none"
+                    stroke="#444444"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  ></line>
+                </svg>
+              </a>
+            </div>
+            <div class="search_before">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2rem"
+                height="2rem"
+                fill="#444444"
+                viewBox="0 0 256 256"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <circle
+                  cx="116"
+                  cy="116"
+                  r="84"
+                  fill="none"
+                  stroke="#444444"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="24"
+                ></circle>
+                <line
+                  x1="175.4"
+                  y1="175.4"
+                  x2="224"
+                  y2="224"
+                  fill="none"
+                  stroke="#444444"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="24"
+                ></line>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container_bottom">
+      <div class="container">
+        <nav>
+          <div class="nav__meun">
+            <ul>
+              <li class="nav__meun-home"><a href="../index.html">Home</a></li>
+              <li class="nav__meun-tag"><a href="">Tag</a></li>
+              <li class="nav__meun-visits"><a href="">Visits</a></li>
+            </ul>
+          </div>
+          <div class="nav__about">
+            <ul>
+              <li class="nav__meun-about"><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main">
+        <section>
+          <div class="section__header">
+            <h1>Android</h1>
+          </div>
+          <div class="section__article">
+            <div class="article__title">
+              <h2>Android 개발 환경 설정하기</h2>
+            </div>
+            <div class="article__content">
+              <h3>1. Android Studio란?</h3>
+              <p>
+                Android Studio는 구글에서 공식으로 지원하는 Android용 앱 개발을
+                위한 통합 개발 환경 (IDE, Integrated Development
+                Environment)입니다.
+              </p>
+              <br />
+              <h4>1) Android Stuoid 설치</h4>
+              <p>
+                파일 다운로드 아래 링크로 이동하여 안드로이드 스튜디오를
+                다운로드한다.
+              </p>
+              <p>
+                <a href="https://developer.android.com/studio"
+                  >✔️ 안드로이드 스튜디오 다운로드</a
+                >
+              </p>
+              <div class="content__container">
+                <ul>
+                  <li>
+                    링크로 이동하여 아래 캡처화면처럼 빨간 네모로 표시된
+                    Download Android Studio를 클릭합니다.
+                  </li>
+                  <img src="./images/android-IDE-1.png" />
+                  <li>
+                    약관을 읽고 동의 한 뒤 Download Android Stuio *** for
+                    Windows 버튼을 클릭해 안드로이드 스튜디오 설치 파일을
+                    다운로드합니다.
+                  </li>
+                  <img src="./images/android-IDE-2.png" />
+                </ul>
+              </div>
+              <h4>2) Android Studio 설치</h4>
+              <p>
+                1단계에서 다운로드 받은 설치 파일을 실행해 안드로이드 스튜디오를
+                설치합니다.
+              </p>
+              <div class="content__container">
+                <ul>
+                  <li>Next 버튼을 클릭하여 설치를 진행합니다.</li>
+                  <img src="./images/android-IDE-3.png" />
+
+                  <li>
+                    ❗ 아래 화면에서 Android Virtual Device를 체크해야
+                    안드로이드가 제공하는 에뮬레이터를 사용할 수 있습니다. 옵션
+                    체크 후 Next 버튼을 클릭합니다.
+                  </li>
+                  <img src="./images/android-IDE-4.png" />
+
+                  <li>
+                    안드로이드 스튜디오가 설치될 경로를 설정합니다. 이번 환경
+                    설정에서는 기본 경로 그대로 진행하였습니다. Next 버튼을
+                    클릭합니다.
+                  </li>
+                  <img src="./images/android-IDE-5.png" />
+
+                  <li>
+                    아래 캡처 화면은 시작메뉴에 표시될 폴더 이름을 설정하는
+                    단계입니다. Android Studio 그대로 설정하고 Install 버튼을
+                    클릭해 설치를 진행했습니다.
+                  </li>
+                  <img src="./images/android-IDE-6.png" />
+
+                  <li>
+                    Install이 완료된 후 Finish 버튼을 클릭하여 설치를
+                    완료합니다.
+                  </li>
+                  <img src="./images/android-IDE-7.png" />
+                </ul>
+              </div>
+              <h4>3) Android Studio 설정</h4>
+              <p>
+                앞의 과정에서 설치한 안드로이드 스튜디오를 실행하여 기본 설정을
+                진행합니다.
+              </p>
+              <div class="content__container">
+                <ul>
+                  <li>
+                    기본 설정 정보를 읽어 드릴지 선택하는 화면입니다. Do not
+                    import settings를 선택하여 초기 상태로 진행하였습니다.
+                  </li>
+                  <img src="./images/android-IDE-8.png" />
+
+                  <li>
+                    Next 버튼을 클릭하여 안드로이드 스튜디오 개발 환경 설정을
+                    수행합니다.
+                  </li>
+                  <img src="./images/android-IDE-9.png" />
+
+                  <li>
+                    개발환경 설정 방식을 선택합니다. Standard는 안드로이드
+                    스튜디오에서 추천하는 표준 방식이고, Custom은 사용자가 직접
+                    설정할 수 있습니다. Standard를 선택한 뒤 Next 버튼을 클릭해
+                    표준 방식으로 진행하였습니다.
+                  </li>
+                  <img src="./images/android-IDE-10.png" />
+
+                  <li>
+                    UI 테마를 선택할 수 있습니다. Darcula 테마를 선택했습니다.
+                  </li>
+                  <img src="./images/android-IDE-11.png" />
+
+                  <li>
+                    설정한 개발 환경을 최종적으로 확인한 뒤 Finish 버튼을 클릭해
+                    환경 설정을 완료합니다.
+                  </li>
+                  <img src="./images/android-IDE-12.png" />
+                </ul>
+              </div>
+              <p>
+                이제 설치한 안드로이드 스튜디오를 실행하여 프로젝트를 생성하고
+                안드로이드 네이티브 앱 개발을 수행할 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </section>
+        <aside>
+          <ul class="aside__title">
+            <li>All post</li>
+          </ul>
+          <ul>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="android.html">Android</a></li>
+          </ul>
+          <div class="aside_div"></div>
+          <ul>
+            <li><a href="">Study</a></li>
+            <li><a href="">Projects</a></li>
+          </ul>
+          <div class="aside_div"></div>
+          <ul>
+            <li><a href="">공지사항</a></li>
+          </ul>
+          <div class="aside__go-top">
+            <div class="aside__go-top_after">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="3.5rem"
+                  height="3.5rem"
+                  fill="#666666"
+                  viewBox="0 0 256 256"
+                >
+                  <rect width="256" height="256" fill="none"></rect>
+                  <circle cx="128" cy="128" r="96" opacity="0.2"></circle>
+                  <circle
+                    cx="128"
+                    cy="128"
+                    r="96"
+                    fill="none"
+                    stroke="#666666"
+                    stroke-miterlimit="10"
+                    stroke-width="16"
+                  ></circle>
+                  <polyline
+                    points="164 144 128 104 92 144"
+                    fill="none"
+                    stroke="#666666"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="16"
+                  ></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="aside__go-top_before">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3.5rem"
+                height="3.5rem"
+                fill="#666666"
+                viewBox="0 0 256 256"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <circle
+                  cx="128"
+                  cy="128"
+                  r="96"
+                  fill="none"
+                  stroke="#666666"
+                  stroke-miterlimit="10"
+                  stroke-width="16"
+                ></circle>
+                <polyline
+                  points="164 144 128 104 92 144"
+                  fill="none"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></polyline>
+              </svg>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="container_top">
+      <div class="container">
+        <footer>
+          <div>
+            <div>email : dlsrbtla@gmail.com</div>
+            <div>TEL : 010-5122-4439</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

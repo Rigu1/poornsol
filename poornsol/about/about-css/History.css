@@ -1,0 +1,19 @@
+body {
+  background-color: #4e5a56;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+body ul li {
+  padding: 1rem;
+}
+
+body ul ul li {
+  padding: 0.5rem;
+}
+
+.img_hover {
+  position: absolute;
+  top: 4rem;
+  right: 6rem;
+}
